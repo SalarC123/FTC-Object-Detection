@@ -1,3 +1,32 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -26,6 +55,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.pth
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -127,3 +157,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+ftc-nn/model.pth
+ftc-nn/images/.DS_Store
+/old
+/java_version
+model.pth
+*.mp4
